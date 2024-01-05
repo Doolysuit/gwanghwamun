@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'gulim';
+    src: url('../fonts/gulim.ttc');
+}
+@font-face {
+    font-family: 'sansserif';
+    src: url('../fonts/SansSerifFLF.otf');
+}
+@font-face {
+    font-family: 'notosans';
+    src: url('../fonts/NotoSansKR-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'malgun';
+    src: url('../fonts/Malgun\ Gothic\ Regular.ttf');
+}
+@font-face {
+    font-family: 'kopub ';
+    src: url('../fonts/KoPubWorld\ Batang_Pro\ Light.otf');
+}
+@font-face {
+    font-family: 'scd';
+    src: url('../fonts/SCDream4.otf');
+}
+@font-face {
+    font-family: 'yisunshin1';
+    src: url('../fonts/이순신돋움체B.ttf');
+}
+@font-face {
+    font-family: 'YiSunShin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinDotumM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+ul {list-style: none;}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.cleas {
+    content: '';
+    clear: both;
+}
+
+
+.section5 {
+    height: 1232px;
+    width: 100%;
+    padding: 120px 0;
+}
+.section5 .inner {
+    padding: 80px 0 0;
+    margin: 0 58.5px;
+}
+.section5 .inner .swiper-inner {}
+.section5 .inner .swiper-inner .swiper-slide {
+    position: relative;
+}
+.section5 .inner .swiper-inner .swiper-slide img {
+    width: 858px;
+    height: 529px;
+}
+.section5 .inner .swiper-inner .swiper-slide .text-box {
+    position: absolute;
+    top: 40%;left: 50%;
+}
+.section5 .inner .swiper-inner .swiper-button-prev:after {
+    position: absolute;
+    top: 670px;
+    /* right: 180px; */
+    left: 1800px;
+}
+.section5 .inner .swiper-inner .swiper-button-next:after {
+    position: absolute;
+    top: 670px;
+    /* right: 180px; */
+    /* left: 1800px; */
+
+}
+.section5 .inner .swiper-inner .swiper-pagination-progressbar.swiper-pagination-horizontal {
+    position: absolute;
+    top: 122%;
+}
+.section5 .inner .swiper22 .swiper-slide img {
+    margin: 24px 0 0 0;
+    width: 417px;
+    height: 284px;
+}
+
+
+
+
+
+/* main */
